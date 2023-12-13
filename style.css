@@ -1,0 +1,112 @@
+* {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rethink Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(150, 53, 177, 1) 0%,
+    rgba(0, 172, 246, 1) 100%
+  );
+  background-repeat: no-repeat;
+  height: 1024px;
+  background-size: cover;
+}
+
+/*background: color image repeat position /*size */
+/*background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;*/
+
+#profile img {
+  width: 112px;
+  height: 112px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+#profile p {
+  padding-top: 10px;
+}
+
+a {
+  color: #fff;
+  /* text-md */
+  font-family: "Hedvig letters serif";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+li {
+  width: 350px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 16px;
+}
+
+ul li a {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.192);
+  transition: 0.5s;
+  border: 2px solid rgb(56, 174, 179);
+  color: rgb(40, 189, 189);
+  transform: scale(1.1);
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 24px;
+}
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+#social-links a:hover{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+footer p {
+  padding-top: 08px;
+  text-align: center;
+  font-size: 14px;
+}
+
+
